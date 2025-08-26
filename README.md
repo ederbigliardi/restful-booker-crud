@@ -1,6 +1,6 @@
 # 🧪 Projeto: Testes Automatizados de Reservas com Jest + Supertest
 
-Bem-vindo ao laboratório de testes! Este projeto foi criado para testar a criação de reservas na [Restful Booker API](https://restful-booker.herokuapp.com/) usando **Jest** e **Supertest**. Aqui, o código não dorme — ele valida, verifica e garante que tudo funcione como esperado (ou quase 😅).
+Bem-vindo ao laboratório de testes! Este projeto foi criado para testar a criação de reservas na [Restful Booker API](https://restful-booker.herokuapp.com/) usando **Jest** e **Supertest**. 
 
 ---
 
