@@ -28,15 +28,15 @@ js
 const createBooking = require('./createBooking');
 
 const payload = {
-  firstname: "Éder",
-  lastname: "Silva",
+  firstname: "John",
+  lastname: "Carpenter",
   totalprice: 150,
   depositpaid: true,
   bookingdates: {
     checkin: "2025-08-26",
     checkout: "2025-08-30"
   },
-  additionalneeds: "Café da manhã"
+  additionalneeds: "Cafe da manha"
 };
 
 createBooking(payload).then((id) => {
