@@ -1,0 +1,24 @@
+{
+    "name": "restful-booker-tests",
+    "version": "1.0.0",
+    "description": "Testes automatizados para a API Restful-Booker",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "test:auth": "jest tests/auth.test.js",
+        "test:create": "jest tests/booking-create.test.js",
+        "test:update": "jest tests/booking-update.test.js",
+        "test:delete": "jest tests/booking-delete.test.js",
+        "test:get": "jest tests/booking-get.test.js"
+    },
+    "keywords": [],
+    "author": "Éder Bigliardi",
+    "license": "MIT",
+    "devDependencies": {
+        "jest": "^29.6.1",
+        "supertest": "^6.3.3"
+    },
+    "dependencies": {
+        "axios": "^1.11.0"
+    }
+}
